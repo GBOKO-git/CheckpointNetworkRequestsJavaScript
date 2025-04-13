@@ -3,7 +3,7 @@ document.getElementById('meteo-btn').addEventListener('click', function() {
     
     // Remplacez 'votre_clé_api' par votre clé API réelle d'OpenWeatherMap
    
-    const apiKey = 'votre_clé_api';
+    const apiKey = 'dcf87a5891f29cbefcf4fc92391d252f';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=fr`;
 
     fetch(url)
